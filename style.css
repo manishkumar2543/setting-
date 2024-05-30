@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body html{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+   background-color: beige;
+}
+.box-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.horzntal-box{
+    width: 20%;
+    height: 95%;
+    background-color: white;
+    padding: 10px;
+    border-right: 1px solid #949494;
+    border: 1px solid gray;
+
+    
+    
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(120, 118, 118);
+    padding: 3px;
+    align-items: center;
+    border-radius: 10px;
+}
+.name{
+    padding-right: 30%;
+    font-size: 13px;
+}
+.more-icon i{
+     font-size: 30px;
+}
+
+
+.vertical-box{
+    width: 70%;
+    height: 95%;
+    background-color: white;
+    border: 1px solid rgb(109, 109, 109);
+    
+}
+.dp_image{
+    height: 50px;
+    width: 50px;
+
+}
+.dp_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.Board-1{
+    height: 100%;
+    width: 100%;
+   
+
+}
+.Board-content1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border-bottom: 1px solid gray;
+   padding-bottom: 10px;
+}
+.Dashboard{
+    display: flex;
+    padding: 12px 10px;
+    gap: 12px;
+}
+.Dashboard:hover{
+    background-color: rgb(162, 162, 162);
+    color: black;
+    border-radius: 50px;
+}
+.Customers{
+    display: flex;
+    gap: 12px;
+    padding: 12px 10px;
+}
+.Customers:hover{
+    background-color: rgb(162, 162, 162);
+    color: black;
+    border-radius: 50px;
+}
+.Products{
+    display: flex;
+    gap: 12px;
+    padding: 12px 10px;
+}
+.Products:hover{
+    background-color: rgb(162, 162, 162);
+    color: black;
+    border-radius: 50px;
+}
+.Companies{
+    display: flex;
+    gap: 12px;
+    padding: 12px 10px;
+}
+.Companies:hover{
+    background-color: rgb(162, 162, 162);
+    color: black;
+    border-radius: 50px;
+}
+.History{
+    display: flex;
+    gap: 12px;
+    padding: 12px 10px;
+}
+.History:hover{
+    background-color: rgb(162, 162, 162);
+     color: black;
+     border-radius: 50px;
+    
+}
+.Board-2{
+    height: 100%;
+    width: 100%;
+   
+}
+.Board-content2{
+    margin-top: 20px;
+}
+.Board-content2 ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+   gap: 20px
+   
+}
+.Board-content2 ul li{
+    padding: 10px 0;
+    
+}
+ul li i{
+    padding-right: 10px;
+}
+.Board-content2 ul li:hover{
+    background-color: wheat;
+    color: white;
+    border-radius: 50px;
+}
+nav{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid rgb(100, 100, 100);
+}
+.box_container-2{
+    height: 93%;
+    display: flex;
+    
+}
+.small-box{
+    width: 24%;
+   
+    padding: 40px 20px;
+    border-right: 1px solid  rgb(100, 100, 100) ;
+    
+}
+.bg-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+
+}
+.bg-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    transition: 1.25s ease-in-out;
+}
+.bg-content p:hover{
+    background-color: #9c98ee;
+    color: blue;
+    padding: 8px 8px;
+    border-radius: 10px;
+}
+.big-box{
+   width: 100%;
+   height: 100%;
+   /* border-left: 1px solid  rgb(100, 100, 100) */
+
+}
+.big_content{
+    
+    width: 100%;
+    padding: 26px;
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+.user-dp-left{
+    height: 100px;
+    width: 100px;
+}
+.user-dp-left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.right{
+    margin-right: 20px;
+}
+.right button{
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.right i{
+    margin-right: 20px;
+    padding: 5px;
+    background-color: #eadada;
+    border-radius: 15px;
+}
+.details{
+
+ width: 100%;
+ background-color: white;
+ overflow: hidden;
+}
+.details-content{
+    
+}
+.control{
+    display: flex;
+    justify-content: space-between;
+   padding: 10px;
+   border-bottom: 1px solid rgb(162, 162, 162);
+   align-items: center;
+}
+.edit a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    
+}
+.edit{
+    margin-right: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.Names p{
+    color:  rgb(119, 119, 119);
+    font-weight: 300;
+    font-size: 15px;
+}
+.Names h3{
+    font-weight: 400;
+}
